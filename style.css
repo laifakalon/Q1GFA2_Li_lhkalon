@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Mono:wght@500&family=Young+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 1px;
+}
+
+.container {
+    background-color: rgb(245, 245, 207);
+    border: solid brown;
+    height: 2vh;
+    margin: 15px;
+    padding: 10px;
+}
+
+#sidelinks {
+    float: right;
+    background-color: bisque;
+
+}
+
+.name {
+    float: left;
+}
+
+.banner{text-align: center;}
+
+.links{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 10vw;
+    border: solid brown;
+    background-color: beige;
+    float: left;
+}
+
+.link a{
+    text-decoration: none;
+    display: block;
+}
+
+.maincontent {
+    display: inline-block;
+    height: 85vh;
+    width: 70vw;
+    border: solid brown;
+    background-color: rgb(245, 231, 150);
+    text-align: justify;
+    text-align: left;
+}
+
+.maincontent p{font-family: 'Roboto Mono', monospace;
+font-size: smaller;}
+
+.maincontent h1{
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.maincontent h1 span {
+    color: rgb(74, 72, 56);
+    font-family: 'Dancing Script', cursive;
+}
+
+.image {
+    text-align: center;
+}
+
+.right {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 10vw;
+    height: 25vh;
+    border: solid brown;
+    background-color: beige;
+    float: right;
+}
